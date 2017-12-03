@@ -1,6 +1,7 @@
 # Symfony Sublime Snippets
 
-Inspired by [Doctrine Sublime Snippets][3]
+Inspired by [Doctrine Sublime Snippets][3].
+
 This repository contains Symfony object-related snippet.
 
 ## Installation
@@ -27,7 +28,8 @@ Snippet template inspired by [symfony/maker-bundle][5].
 
 ### Validation (on entity) Snippet
 
-See [Symfony constraints][4] for available assertion snippet
+See [Symfony constraints][4] for available assertion snippet.
+
 Assertion prefixed by `sfass` and living in block comment scope, so you need to put your cursor inside that scope.
 Snippet won't loading with tab trigger, but you can use command pallete control to insert.
 
@@ -62,14 +64,17 @@ Additional snippet:
 * One to Many
 * Many to One
 
-### Other
+#### Additional Snippet
 
 * Create Entity
 * Create Repository
 
-Happy coding 
---
+
+```sh
+Happy coding,
+
 ekokurniawan
+```
 
 [1]: https://packagecontrol.io/installation
 [2]: https://github.com/eghojansu/symfony-snippet.git
