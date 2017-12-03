@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\GreaterThanOrEqual(${1:value=}"${2:value}")
+]]></content>
+	<tabTrigger>sfassgreaterthanorequal</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert GreaterThanOrEqual</description>
+</snippet>

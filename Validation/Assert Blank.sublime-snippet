@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Blank()
+]]></content>
+	<tabTrigger>sfassblank</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Blank</description>
+</snippet>

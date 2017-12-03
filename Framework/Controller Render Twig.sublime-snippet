@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+return \$this->render('${1:${TM_FILENAME/^(\u)|([Cc]ontroller)|(\u)|(\..+)$/(?1:\l\1:)(?2::)(?3:_\l\3:)(?4::)/g}}/${2:template}.html.twig');$0
+]]></content>
+	<tabTrigger>sfrendertwig</tabTrigger>
+	<scope>source.php</scope>
+	<description>Symfony render twig</description>
+</snippet>

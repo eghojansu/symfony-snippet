@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Luhn()
+]]></content>
+	<tabTrigger>sfassluhn</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Luhn</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Isbn(${1:type=}"${2:isbn10}")
+]]></content>
+	<tabTrigger>sfassisbn</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Isbn</description>
+</snippet>

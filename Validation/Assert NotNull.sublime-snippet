@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\NotNull()
+]]></content>
+	<tabTrigger>sfassnotnull</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert NotNull</description>
+</snippet>

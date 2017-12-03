@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\IdenticalTo(${1:value=}"${2:value}")
+]]></content>
+	<tabTrigger>sfassidenticalto</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert IdenticalTo</description>
+</snippet>

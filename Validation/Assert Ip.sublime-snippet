@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Ip()
+]]></content>
+	<tabTrigger>sfassip</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Ip</description>
+</snippet>

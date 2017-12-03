@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\GreaterThan(${1:value=}"${2:value}")
+]]></content>
+	<tabTrigger>sfassgreaterthan</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert GreaterThan</description>
+</snippet>

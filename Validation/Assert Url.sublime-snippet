@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Url()
+]]></content>
+	<tabTrigger>sfassurl</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Url</description>
+</snippet>

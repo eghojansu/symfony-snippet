@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @var DateTime
+ *
+ * @ORM\Column(type="datetime", name="${1:propertyName}"${2:, nullable=true})
+ */
+private \$$1;
+$0]]></content>
+	<tabTrigger>sfdatetimeproperty</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine datetime property</description>
+</snippet>

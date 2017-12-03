@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\CardScheme(${1:schemes=}{"${2:VISA}"})
+]]></content>
+	<tabTrigger>sfasscardscheme</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert CardScheme</description>
+</snippet>

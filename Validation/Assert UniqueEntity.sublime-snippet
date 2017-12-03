@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@UniqueEntity(${1:propertyName})
+]]></content>
+	<tabTrigger>sfassuniqueentity</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert UniqueEntity</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Language()
+]]></content>
+	<tabTrigger>sfasslanguage</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Language</description>
+</snippet>

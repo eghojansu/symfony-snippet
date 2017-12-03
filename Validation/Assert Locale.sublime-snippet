@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Locale()
+]]></content>
+	<tabTrigger>sfasslocale</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Locale</description>
+</snippet>

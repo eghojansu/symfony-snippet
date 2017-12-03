@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\IsFalse()
+]]></content>
+	<tabTrigger>sfassisfalse</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert IsFalse</description>
+</snippet>

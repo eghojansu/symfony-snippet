@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Time()
+]]></content>
+	<tabTrigger>sfasstime</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Time</description>
+</snippet>

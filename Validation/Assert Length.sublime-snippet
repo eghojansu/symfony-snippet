@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Length(max=${1:255}${2:, min=${3:1}})
+]]></content>
+	<tabTrigger>sfasslength</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Length</description>
+</snippet>

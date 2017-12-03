@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+namespace App\Repository;
+
+use App\Entity\\${2:${1/([Rr]epository)$//}};
+use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Symfony\Bridge\Doctrine\RegistryInterface;
+
+class ${1:${TM_FILENAME/^(\w+)|(\..+)$/(?1:\1:)(?2::)/g}} extends ServiceEntityRepository
+{
+    public function __construct(RegistryInterface \$registry)
+    {
+        parent::__construct(\$registry, $2::class);
+    }
+
+    /*$3
+    public function findBySomething(\$value)
+    {
+        return \$this->createQueryBuilder('a')
+            ->where('a.something = :value')->setParameter('value', \$value)
+            ->orderBy('a.id', 'ASC')
+            ->setMaxResults(10)
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+    */
+}$0
+]]></content>
+	<tabTrigger>sfrepository</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine repository</description>
+</snippet>

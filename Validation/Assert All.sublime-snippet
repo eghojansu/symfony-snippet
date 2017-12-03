@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\All()
+]]></content>
+	<tabTrigger>sfassall</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert All</description>
+</snippet>

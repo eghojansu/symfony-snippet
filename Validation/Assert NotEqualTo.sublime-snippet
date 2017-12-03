@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\NotEqualTo(${1:value=}"${2:value}")
+]]></content>
+	<tabTrigger>sfassnotequalto</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert NotEqualTo</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Collection()
+]]></content>
+	<tabTrigger>sfasscollection</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Collection</description>
+</snippet>

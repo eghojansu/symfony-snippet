@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+namespace App\Command;
+
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Style\SymfonyStyle;
+
+class ${1:${TM_FILENAME/^(\w+)|(\..+)$/(?1:\1:)(?2::)/g}} extends Command
+{
+    protected function configure()
+    {
+        \$this
+            ->setName('app:${2:${1/^(\u)|([Cc]ommand)|(\u)/(?1:\l\1:)(?2::)(?3:\:\l\3:)/g}}')
+            ->setDescription('Add a short description for your command')
+            ->addArgument('arg1', InputArgument::OPTIONAL, 'Argument description')
+            ->addOption('option1', null, InputOption::VALUE_NONE, 'Option description')
+        ;
+    }
+
+    protected function execute(InputInterface \$input, OutputInterface \$output)
+    {
+        $3\$io = new SymfonyStyle(\$input, \$output);
+        \$argument = \$input->getArgument('arg1');
+
+        if (\$input->getOption('option1')) {
+            // ...
+        }
+
+        \$io->success('You have a new command! Now make it your own! Pass --help to see your options.');
+    }
+}$0
+]]></content>
+	<tabTrigger>sfcommand</tabTrigger>
+	<scope>source.php</scope>
+	<description>Console Command</description>
+</snippet>

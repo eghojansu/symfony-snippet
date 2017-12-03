@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\EqualTo(${1:value=}"${2:value}")
+]]></content>
+	<tabTrigger>sfassequalto</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert EqualTo</description>
+</snippet>

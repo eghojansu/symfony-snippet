@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Country()
+]]></content>
+	<tabTrigger>sfasscountry</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Country</description>
+</snippet>

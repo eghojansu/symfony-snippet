@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Valid()
+]]></content>
+	<tabTrigger>sfassvalid</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Valid</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\DateTime()
+]]></content>
+	<tabTrigger>sfassdatetime</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert DateTime</description>
+</snippet>

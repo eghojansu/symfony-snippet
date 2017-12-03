@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Regex(${1:pattern=}"${2:/.*/}")
+]]></content>
+	<tabTrigger>sfassregex</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Regex</description>
+</snippet>

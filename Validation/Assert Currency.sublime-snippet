@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Currency()
+]]></content>
+	<tabTrigger>sfasscurrency</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Currency</description>
+</snippet>

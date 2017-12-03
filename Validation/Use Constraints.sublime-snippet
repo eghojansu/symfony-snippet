@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+use Symfony\Component\Validator\Constraints as Assert;
+]]></content>
+	<tabTrigger>sfuseconstraints</tabTrigger>
+	<scope>source.php</scope>
+	<description>Validation use constraints</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@Assert\Email(${1:${2:checkMX="true", }${3:checkHost="true"}})
+]]></content>
+	<tabTrigger>sfassemail</tabTrigger>
+	<scope>comment.block</scope>
+	<description>Assert Email</description>
+</snippet>
