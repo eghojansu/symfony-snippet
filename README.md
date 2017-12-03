@@ -41,28 +41,32 @@ Additional snippet:
 
 #### Properties
 
-* Array
-* Big Integer
-* Boolean
-* Date
-* DateTime
-* Decimal
-* Integer
-* JSON Array
-* Primary
-* Simple Array
-* Small Integer
-* String
-* Text
-* Time
+* Array (`sfarrayproperty`)
+* Big Integer (`sfbigintegerproperty`)
+* Boolean (`sfbooleanproperty`)
+* Date (`sfdateproperty`)
+* DateTime (`sfdatetimeproperty`)
+* Decimal (`sfdecimalproperty`)
+* Integer (`sfintegerproperty`)
+* JSON Array (`sfjsonarrayproperty`)
+* Primary (`sfprimaryproperty`)
+* Simple Array (`sfsimplearrayproperty`)
+* Small Integer (`sfsmallintegerproperty`)
+* String (`sfstringproperty`)
+* Text (`sftextproperty`)
+* Time (`sftimeproperty`)
 
 #### Association
 
-* One to One Uni/Bidirectional map
-* One to One Bidirectional inverse
-* One to One Self
-* One to Many
-* Many to One
+* One to One Uni/Bidirectional map (`sfonetoonemapped`)
+* One to One Bidirectional inverse (`sfonetooneinverse`)
+* One to One Self (`sfselfonetoone`)
+* One to Many (`sfonetomany`)
+* Many to One (`sfmanytoone`)
+* Many To Many Bidirectional Inverse (`sfmanytomanybiinverse`)
+* Many To Many Bidirectional Mapped (`sfmanytomanybimapped`)
+* Many To Many Self Referencing (`sfmanytomanyself`)
+* Many To Many Unidirectional (`sfmanytomanyuni`)
 
 #### Additional Snippet
 
