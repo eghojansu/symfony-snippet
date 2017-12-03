@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@Assert\Choice(${1:choices=\{"${2:valid choice}"\}}${3:, callback: ${4:\{"${5:${TM_FILENAME/^(\w+)|(\..+)$/(?1:\1:)(?2::)/g}}", "${6:yourStaticCallback}"\}}})
+@Assert\Choice(${1:callback="${2:yourStaticCallback}"}${3:, choices=\{"${4:choice option}"\}})
 ]]></content>
 	<tabTrigger>sfasschoice</tabTrigger>
 	<scope>comment.block</scope>
