@@ -3,8 +3,8 @@
 /**
  * @var Doctrine\Common\Collections\ArrayCollection
  * 
- * @ManyToMany(targetEntity="${1:TargetEntity}", inversedBy="${2:${TM_FILENAME/^(\u)|(\..+)$/(?1:\l\1:)(?2::)/g}}")
- * @JoinTable(name="${3:${2/(\u)/(?1:_\l\1:)/g}}_${4:${1/^(\u)|(\u)/(?1:\l\1:)(?2:_\l\2:)/g}}")
+ * @ORM\ManyToMany(targetEntity="${1:TargetEntity}", inversedBy="${2:${TM_FILENAME/^(\u)|(\..+)$/(?1:\l\1:)(?2::)/g}}")
+ * @ORM\JoinTable(name="${3:${2/(\u)/(?1:_\l\1:)/g}}_${4:${1/^(\u)|(\u)/(?1:\l\1:)(?2:_\l\2:)/g}}")
  */
 private \$$4;
 $0]]></content>

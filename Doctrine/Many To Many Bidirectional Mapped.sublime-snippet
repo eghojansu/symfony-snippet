@@ -3,7 +3,7 @@
 /**
  * @var Doctrine\Common\Collections\ArrayCollection
  * 
- * @ManyToMany(targetEntity="${1:TargetEntity}", mappedBy="${2:${TM_FILENAME/^(\u)|(\..+)$/(?1:\l\1:)(?2::)/g}}")
+ * @ORM\ManyToMany(targetEntity="${1:TargetEntity}", mappedBy="${2:${TM_FILENAME/^(\u)|(\..+)$/(?1:\l\1:)(?2::)/g}}")
  */
 private \$${3:${1/^(\u)/(?1:\l\1:)/g}};
 $0]]></content>

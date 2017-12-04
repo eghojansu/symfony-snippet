@@ -3,8 +3,8 @@
 /**
  * @var Doctrine\Common\Collections\ArrayCollection
  *
- * @ManyToMany(targetEntity="${1:TargetEntity}")
- * @JoinTable(
+ * @ORM\ManyToMany(targetEntity="${1:TargetEntity}")
+ * @ORM\JoinTable(
  *	name="${2:${TM_FILENAME/^(\u)|(\u)|(\..+)$/(?1:\l\1:)(?2:_\l\2:)(?3::)/g}}_${3:${1/^(\u)|(\u)/(?1:\l\1:)(?2:_\l\2:)/g}}", 
  *	joinColumns={@JoinColumn(name="${4:${2/(_(\w))/(?2:\u\2:)/g}}Id", referencedColumnName="id")}, 
  *	inverseJoinColumns={@JoinColumn(name="${5:${1/^(\u)/(?1:\l\1:)/g}}Id", referencedColumnName="id")}

@@ -3,15 +3,15 @@
 /**
  * @var Doctrine\Common\Collections\ArrayCollection
  * 
- * @ManyToMany(targetEntity="${1:${TM_FILENAME/^(\u)|(\..+)$/(?1:\l\1:)(?2::)/g}}", mappedBy="${2:mappedBy}")
+ * @ORM\ManyToMany(targetEntity="${1:${TM_FILENAME/^(\u)|(\..+)$/(?1:\l\1:)(?2::)/g}}", mappedBy="${2:mappedBy}")
  */
 private \$${3:inversedBy};
 
 /**
  * @var Doctrine\Common\Collections\ArrayCollection
  * 
- * @ManyToMany(targetEntity="$1", inversedBy="$3")
- * @JoinTable(
+ * @ORM\ManyToMany(targetEntity="$1", inversedBy="$3")
+ * @ORM\JoinTable(
  * 	name="${4:joinTable}",
  *  joinColumns={@JoinColumn(name="${5:${1/^(\u)/(?1:\l\1:)/g}}Id", referencedColumnName="id")},
  *  inverseJoinColumns={@JoinColumn(name="${6:$4}${7:${1/^(\u)/(?1:\u\1:)/g}}Id", referencedColumnName="id")}
